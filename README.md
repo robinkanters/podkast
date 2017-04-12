@@ -59,7 +59,7 @@ allprojects {
 
 ```groovy
 dependencies {
-    compile 'com.github.robinkanters:podkast:-SNAPSHOT'
+    compile 'com.github.robinkanters:podkast:0.1'
 }
 ```
 
