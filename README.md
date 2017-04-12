@@ -1,4 +1,4 @@
-# Java/Kotlin Podcast Feed Parser
+# Podkast
 _Simpler library to read podcast feeds_
 
 ## Usage
@@ -37,6 +37,29 @@ val podcast = PodcastLoader.load(URL("FEED URL"))
 val episodes = podcast.episodes
 episodes.forEach {
     println("Episode Title - ${it.title}"
+}
+```
+
+## Installation
+
+### Gradle
+
+1. Add the JitPack.io repo to your gradle config:
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+2. Add Podkast as dependency:
+
+```groovy
+dependencies {
+    compile 'com.github.robinkanters:podkast:-SNAPSHOT'
 }
 ```
 
