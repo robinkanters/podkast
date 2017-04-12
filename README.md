@@ -1,6 +1,8 @@
 # Podkast
 _Simpler library to read podcast feeds_
 
+[![codecov](https://codecov.io/gh/robinkanters/podkast/branch/develop/graph/badge.svg)](https://codecov.io/gh/robinkanters/podkast)
+
 ## Usage
 __Read Feed__
 	
