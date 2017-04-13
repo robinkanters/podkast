@@ -1,13 +1,13 @@
-package com.robinkanters.podengine.models
+package com.robinkanters.podkast.models
 
-import com.robinkanters.podengine.models.ExplicitLevel.*
+import com.robinkanters.podkast.models.ExplicitLevel.*
 import org.dom4j.Element
 import org.dom4j.Namespace
 import org.dom4j.QName
 
 import java.net.MalformedURLException
 import java.net.URL
-import com.robinkanters.podengine.utils.StringUtils.toURL
+import com.robinkanters.podkast.utils.StringUtils.toURL
 
 abstract class ItunesInfo(protected val parent: Element) {
     protected val itunesNamespace: Namespace = parent.getNamespaceForPrefix("itunes")

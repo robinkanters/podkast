@@ -1,4 +1,4 @@
-package com.robinkanters.podengine.models
+package com.robinkanters.podkast.models
 
 enum class ExplicitLevel {
     EXPLICIT, CLEAN, UNKNOWN
