@@ -1,6 +1,6 @@
-package com.robinkanters.podengine.utils
+package com.robinkanters.podkast.utils
 
-import com.robinkanters.podengine.exceptions.MalformedFeedException
+import com.robinkanters.podkast.exceptions.MalformedFeedException
 import org.dom4j.Element
 
 object ElementUtils {

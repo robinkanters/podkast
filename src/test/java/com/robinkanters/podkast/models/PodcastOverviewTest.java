@@ -1,9 +1,9 @@
-package com.robinkanters.podengine.models;
+package com.robinkanters.podkast.models;
 
-import com.robinkanters.podengine.exceptions.DateFormatException;
-import com.robinkanters.podengine.exceptions.InvalidFeedException;
-import com.robinkanters.podengine.exceptions.MalformedFeedException;
-import com.robinkanters.podengine.utils.StringUtils;
+import com.robinkanters.podkast.exceptions.DateFormatException;
+import com.robinkanters.podkast.exceptions.InvalidFeedException;
+import com.robinkanters.podkast.exceptions.MalformedFeedException;
+import com.robinkanters.podkast.utils.StringUtils;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,10 +1,10 @@
-package com.robinkanters.podengine.models
+package com.robinkanters.podkast.models
 
-import com.robinkanters.podengine.exceptions.DateFormatException
-import com.robinkanters.podengine.exceptions.MalformedFeedException
-import com.robinkanters.podengine.parser.CategoryParser
-import com.robinkanters.podengine.utils.StringUtils.toDate
-import com.robinkanters.podengine.utils.StringUtils.toURL
+import com.robinkanters.podkast.exceptions.DateFormatException
+import com.robinkanters.podkast.exceptions.MalformedFeedException
+import com.robinkanters.podkast.parser.CategoryParser
+import com.robinkanters.podkast.utils.StringUtils.toDate
+import com.robinkanters.podkast.utils.StringUtils.toURL
 import org.dom4j.Document
 import org.dom4j.DocumentException
 import org.dom4j.DocumentHelper

@@ -1,8 +1,8 @@
-package com.robinkanters.podengine.models;
+package com.robinkanters.podkast.models;
 
-import com.robinkanters.podengine.exceptions.DateFormatException;
-import com.robinkanters.podengine.exceptions.InvalidFeedException;
-import com.robinkanters.podengine.exceptions.MalformedFeedException;
+import com.robinkanters.podkast.exceptions.DateFormatException;
+import com.robinkanters.podkast.exceptions.InvalidFeedException;
+import com.robinkanters.podkast.exceptions.MalformedFeedException;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Set;
 
-import static com.robinkanters.podengine.utils.StringUtils.stringToDate;
+import static com.robinkanters.podkast.utils.StringUtils.stringToDate;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

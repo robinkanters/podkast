@@ -1,8 +1,8 @@
-package com.robinkanters.podengine
+package com.robinkanters.podkast
 
-import com.robinkanters.podengine.exceptions.InvalidFeedException
-import com.robinkanters.podengine.exceptions.MalformedFeedException
-import com.robinkanters.podengine.models.Podcast
+import com.robinkanters.podkast.exceptions.InvalidFeedException
+import com.robinkanters.podkast.exceptions.MalformedFeedException
+import com.robinkanters.podkast.models.Podcast
 import org.apache.commons.io.IOUtils
 import org.dom4j.DocumentException
 import java.io.IOException
