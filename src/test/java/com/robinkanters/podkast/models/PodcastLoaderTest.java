@@ -1,6 +1,6 @@
-package com.robinkanters.podengine.models;
+package com.robinkanters.podkast.models;
 
-import com.robinkanters.podengine.PodcastLoader;
+import com.robinkanters.podkast.PodcastLoader;
 import org.junit.Test;
 
 import java.net.URL;

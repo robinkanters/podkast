@@ -1,4 +1,4 @@
-package com.robinkanters.podengine.models
+package com.robinkanters.podkast.models
 
 import org.dom4j.Element
 

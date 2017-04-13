@@ -1,6 +1,6 @@
-package com.robinkanters.podengine.models
+package com.robinkanters.podkast.models
 
-import com.robinkanters.podengine.utils.StringUtils.toURL
+import com.robinkanters.podkast.utils.StringUtils.toURL
 import org.dom4j.Element
 import java.net.MalformedURLException
 import java.net.URL

@@ -1,3 +1,3 @@
-package com.robinkanters.podengine.exceptions
+package com.robinkanters.podkast.exceptions
 
 class DateFormatException(message: String) : Exception(message)
