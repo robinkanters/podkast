@@ -60,7 +60,7 @@ class Episode(private val itemElement: Element) {
     }
 
     @Throws(MalformedURLException::class)
-    private fun parseComments() = itemElement.element("comments").textTrim?.toURL()
+    private fun parseComments() = itemElement.element("comments")?.textTrim?.toURL()
 
     private fun parseEnclosure(): Enclosure? {
         val enclosureElement = itemElement.element("enclosure") ?: return null
