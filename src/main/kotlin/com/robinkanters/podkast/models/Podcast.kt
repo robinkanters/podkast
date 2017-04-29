@@ -110,9 +110,9 @@ class Podcast {
         return url.toURL()
     }
 
-    private fun parseLanguage() = this.channelElement.element("language").text
+    private fun parseLanguage() = this.channelElement.element("language")?.text
 
-    private fun parseCopyright() = this.channelElement.element("copyright").text
+    private fun parseCopyright() = this.channelElement.element("copyright")?.text
 
     private fun parseManagingEditor() = this.channelElement.element("managingEditor")?.text
 
